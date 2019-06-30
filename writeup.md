@@ -110,14 +110,22 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used the following paramters:
+
+| Parameter				|     Value	        							| 
+|:---------------------:|:---------------------------------------------:| 
+| type of optimizer		| adam											|
+| batch size			| 64											|
+| number of epochs		| 15											|
+| learning rate			| 0.001											|
+
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
 * training set accuracy of 0.993
 * validation set accuracy of 0.946
-* test set accuracy of ?
+* test set accuracy of 0.942
 
 I choose a well known architecture Lenet5.
 
@@ -153,7 +161,7 @@ Here are the results of the prediction:
 | Stop 					| Stop 							 				|
 | No entry				| No entry  									|
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 94.2%
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
